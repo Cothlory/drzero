@@ -92,7 +92,7 @@ Please consider citing if you use our methods in your research:
   title={Dr. Zero: Self-Evolving Search Agents without Training Data},
   author={Yue, Zhenrui and Upasani, Kartikeya and Yang, Xianjun and Ge, Suyu and Nie, Shaoliang and Mao, Yuning and Liu, Zhe and Wang, Dong},
   journal={arXiv preprint arXiv:2601.07055},
-  year={2025}
+  year={2026}
 }
 ```
 
