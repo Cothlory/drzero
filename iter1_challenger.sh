@@ -7,8 +7,8 @@ kill -9 $(lsof -t -i :8000);
 kill -9 $(lsof -t -i :8001);
 
 tp=2
-dp=4
-gpus=8
+dp=2
+gpus=4
 batch_per_gpu=2
 rollout_memory_utilization=0.25
 
@@ -30,7 +30,7 @@ TRAIN_DATA="./data/zero_ratio${hop_ratio}.parquet"
 VAL_DATA="./data/test.parquet"
 
 
-source activate llm;
+# source activate llm;
 
 python search/retrieval_server.py \
     --index_path='./corpus/e5_Flat.index' \

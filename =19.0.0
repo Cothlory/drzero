@@ -1,0 +1,2 @@
+Requirement already satisfied: pyarrow in /bigtemp/duh6ae/conda/drzero/lib/python3.10/site-packages (15.0.0)
+Requirement already satisfied: numpy<2,>=1.16.6 in /bigtemp/duh6ae/conda/drzero/lib/python3.10/site-packages (from pyarrow) (1.26.4)
