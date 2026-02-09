@@ -17,7 +17,7 @@ SAVE_NAME=e5_${TOPK}_wiki18.json
 # CORPUS_PATH=/home/peterjin/rm_retrieval_corpus/corpora/wiki/enwiki-dec2021/text-list-100-sec.jsonl
 # SAVE_NAME=e5_${TOPK}_wiki21.json
 
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python retrieval.py --retrieval_method e5 \
+CUDA_VISIBLE_DEVICES=3 python search/retrieval.py --retrieval_method e5 \
                     --retrieval_topk $TOPK \
                     --index_path $INDEX_PATH \
                     --corpus_path $CORPUS_PATH \
